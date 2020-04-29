@@ -1,0 +1,9 @@
+
+<form method="GET" action="/detailform/">
+    {% for txt in alldata %}
+    <input type="{{ txt.typ }}" name="{{ txt.name }}"  />
+    <br/>
+    {% endfor %}
+    <input type="submit" />
+    
+</form>
